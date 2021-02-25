@@ -65,7 +65,7 @@
         </dependency>
 
         <!-- The third-party dependencies this application has -->
-        <dependency>
+        <!--dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
@@ -85,7 +85,7 @@
         </dependency>
 
         <!-- Test dependendencies -->
-        <dependency>
+        <!--dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
