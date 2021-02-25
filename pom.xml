@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <name>cargo-tracker</name>
-    <url>https://github.com/javaee/cargotracker/</url>
+    <url>https://github.com/abhiawachar/cargotracker/</url>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -46,12 +46,12 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
+            <version>8.0</version>
             <scope>provided</scope>
         </dependency>
 
         <!-- GlassFish specific dependencies, could go away in Java EE 8 -->
-        <dependency>
+        <!--dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet-core</artifactId>
             <version>2.0</version>
@@ -73,7 +73,7 @@
         </dependency>
 
         <!-- PrimeFaces dependencies -->
-        <dependency>
+        <!--dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
             <version>5.2</version>
